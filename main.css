@@ -8,19 +8,19 @@
 }
 
 :root{
-    --start: #9faf20;
+    --start: #f10c0c;
     --end: #207094;
-    --open-path: #885771;
-    --closed-path: #a6819b;
-    --path: #ff6be6;
-    --wall: #001834;
+    /* --open-path: #885771;
+    --closed-path: #a6819b; */
+    --path: #b1ae27;
+    --wall: #070707;
 }
 
 body{
     height: 100vh;
     margin: 0 ;
     padding: 0;
-    background-color: #1e1f29;
+    background-color: #a7aab9;
     color: #fff;
 }
 .page{
@@ -159,7 +159,7 @@ body{
 .slidecontainer {
     width: 100%; 
 }
-.slider {
+/* .slider {
     -webkit-appearance: none;  
     overflow: hidden;
     appearance: none;
@@ -168,9 +168,9 @@ body{
     margin-top: 5px; 
     outline: none; 
     border-radius: 15px;
-}
+} */
 
-.slider::-webkit-slider-thumb {
+/* .slider::-webkit-slider-thumb {
     -webkit-appearance: none; 
     appearance: none;
     width: 18px; 
@@ -179,13 +179,13 @@ body{
     cursor: pointer;
     background: var(--wall);
     box-shadow: -85px 0 0 80px var(--path);
-}
-.slider::-moz-range-thumb {
+} */
+/* .slider::-moz-range-thumb {
     width: 1em;
     height: 1em;
     background: #000; 
     cursor: pointer;
-}
+} */
 /** FF*/
 input[type="range"]::-moz-range-progress {
   background-color: var(--start); 
